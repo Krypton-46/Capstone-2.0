@@ -4,6 +4,166 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Musab Ismail Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header class="d-flex justify-content-center py-3 header" id="start">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#start" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="picture">
+        <h1 class="name neon-text">
+          <pre>
+        Musab
+        Ismail
+        </pre
+          >
+        </h1>
+        <img class="image" src="assets/me.jpg" alt="musab's picture" />
+      </div>
+      <h2 class="text">Projects</h2>
+      <section id="projects">
+        <h3 class="text">Rock Paper Scissors</h3>
+        <div class="rock">
+          <video class="rockvid" width="600" controls autoplay muted>
+            <source
+              src="./assets/RockPaperScissors.Game — Mozilla Firefox 2025-07-11 17-12-23.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-description">
+            <p>
+              A simple Rock-Paper-Scissors game built with HTML, CSS, and
+              JavaScript. Players click buttons to choose their move, and the
+              computer randomly selects its own. The result is displayed
+              instantly with a clean, interactive UI.
+            </p>
+          </div>
+        </div>
+        <h3 class="text">Tic Tac Toe</h3>
+        <div class="tic">
+          <video class="ticvid" width="600" controls autoplay muted>
+            <source
+              src="./assets/TicTacToe.Game — Mozilla Firefox 2025-07-11 17-11-47.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-description">
+            <p>
+              A basic Tic Tac Toe game using HTML, CSS, and JavaScript. Two
+              players take turns marking X or O on a 3x3 grid. The game checks
+              for a win or draw and displays the result with a simple,
+              responsive design.
+            </p>
+          </div>
+        </div>
+        <h3 class="text">Resume</h3>
+        <div class="resume">
+          <video class="ticvid" width="600" controls autoplay muted>
+            <source
+              src="./assets/My Resume — Mozilla Firefox 2025-07-11 18-21-48.mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-description">
+            <p>
+              A clean and responsive resume webpage created with HTML and CSS,
+              showcasing personal details, skills, experience, and education in
+              a well-structured layout.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="pricing">
+        <div class="price">
+          <h2 class="text">Pricing</h2>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$10</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Simple Website</li>
+                    <li>HTML/CSS</li>
+                    <li>2 Week Deleivery</li>
+                    <li>No Support</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">
+                    Get started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$30</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Responsive Website</li>
+                    <li>HTML/CSS/JS</li>
+                    <li>1 Week Deleiver</li>
+                    <li>1 Month Support</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">
+                    Get started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    $29<small class="text-body-secondary fw-light">/mo</small>
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">
+                    Contact us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

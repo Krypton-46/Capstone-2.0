@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+}
+.picture {
+  padding-right: 100px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: right;
+}
+.image {
+  height: 700px;
+  border-radius: 10%;
+  border: 8px solid rgb(0, 0, 0);
+}
+.name {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 300px;
+  color: rgb(255, 255, 255);
+  padding-right: 300px;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 200px;
+  margin: 30px 0 30px 0;
+}
+
+.rock {
+  display: flex;
+  align-items: flex-start;
+  gap: 90px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.video-description {
+  margin-top: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: 30px 40px 0px 40px;
+}
+.tic {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  gap: 90px;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+.resume {
+  display: flex;
+  align-items: flex-start;
+  gap: 90px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.price {
+  margin: 0 200px 0 200px;
+}

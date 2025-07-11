@@ -70,3 +70,33 @@ body {
 .price {
   margin: 0 200px 0 200px;
 }
+
+.container {
+  background-color: white;
+  border-radius: 1%;
+}
+
+.about-head {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.meabout {
+  color: white;
+  text-align: justify;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  max-width: 800px;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.about {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+}

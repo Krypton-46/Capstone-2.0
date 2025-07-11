@@ -20,7 +20,10 @@
   </head>
   <body>
     <!-- header -->
-    <header class="d-flex justify-content-center py-3 header" id="start">
+    <header
+      class="d-flex justify-content-center py-3 fixed-top header"
+      id="start"
+    >
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a href="#start" class="nav-link active" aria-current="page">Home</a>
@@ -28,8 +31,12 @@
         <li class="nav-item">
           <a href="#projects" class="nav-link">Projects</a>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="./about.html" target="_blank" class="nav-link">About</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -43,8 +50,8 @@
         </h1>
         <img class="image" src="assets/me.jpg" alt="musab's picture" />
       </div>
-      <h2 class="text">Projects</h2>
-      <section id="projects">
+      <h2 class="text" id="projects">Projects</h2>
+      <section>
         <h3 class="text">Rock Paper Scissors</h3>
         <div class="rock">
           <video class="rockvid" width="600" controls autoplay muted>
@@ -147,13 +154,13 @@
                 </div>
                 <div class="card-body">
                   <h1 class="card-title pricing-card-title">
-                    $29<small class="text-body-secondary fw-light">/mo</small>
+                    $100<small class="text-body-secondary fw-light">/mo</small>
                   </h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone and email support</li>
-                    <li>Help center access</li>
+                    <li>3 Day Deleivery</li>
+                    <li>Responsive for all Devices</li>
+                    <li>Animated</li>
+                    <li>1 Year Support</li>
                   </ul>
                   <button type="button" class="w-100 btn btn-lg btn-primary">
                     Contact us
@@ -164,6 +171,33 @@
           </div>
         </div>
       </section>
+      <footer>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="#start" class="nav-link px-2 text-body-secondary"
+                  >Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link px-2 text-body-secondary"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="about.html"
+                  class="nav-link px-2 text-body-secondary"
+                  target="_blank"
+                  >About</a
+                >
+              </li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 Musab Ismail</p>
+          </footer>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

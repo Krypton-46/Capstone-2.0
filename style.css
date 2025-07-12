@@ -125,7 +125,6 @@ img {
   }
 }
 
-/* Styles for screen widths less than 1900px */
 @media (max-width: 1900px) {
   .name {
     font-size: 100px;
@@ -226,7 +225,6 @@ img {
     border-width: 4px;
   }
 }
-/* Styles for screens between 748px and 1280px */
 @media (min-width: 749px) and (max-width: 1280px) {
   .name {
     font-size: 120px;
